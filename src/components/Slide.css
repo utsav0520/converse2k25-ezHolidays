@@ -1,0 +1,49 @@
+.carousel-item {
+  transition: all 0.5s ease-in-out;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  z-index: 10;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background: #007bff;
+}
+
+/* -------------------------------------------------------- */
+.small-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.small-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
