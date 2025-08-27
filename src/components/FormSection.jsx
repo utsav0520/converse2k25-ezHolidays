@@ -27,7 +27,7 @@ function FormSection() {
       </p>
 
       <a
-        href="https://forms.gle/your-google-form-link" 
+        href="https://docs.google.com/forms/d/e/1FAIpQLScH1qrX4nBkcJz6YW47X96uBngcuqrBmtpO_2NGsPONFk0_qQ/viewform?embedded=true" 
         target="_blank"
         rel="noopener noreferrer"
         style={{
