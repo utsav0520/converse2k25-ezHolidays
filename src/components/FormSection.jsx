@@ -27,7 +27,7 @@ function FormSection() {
       </p>
 
       <a
-        href="https://forms.gle/your-google-form-link" // ← Replace with your Google Form link
+        href="https://forms.gle/your-google-form-link" 
         target="_blank"
         rel="noopener noreferrer"
         style={{

@@ -44,7 +44,7 @@ function Slide({ slide, isActive }) {
       <div
         style={{
           padding: isMobile ? "2rem" : "6rem",
-          background: "linear-gradient(135deg, #1f2937, #111827)",
+          background: "linear-gradient(135deg, #B8A889, #AA7D28)",
           height: "100%",
           display: "flex",
           flexDirection: "column",
@@ -62,7 +62,8 @@ function Slide({ slide, isActive }) {
             display: "inline-block",
             padding: "0.75rem 1.5rem",
             fontSize: "1rem",
-            backgroundColor: "#007bff",
+            fontFamily: "Arial, sans-serif",
+            backgroundColor: "#443E32",
             color: "#fff",
             textDecoration: "none",
             borderRadius: "4px",
@@ -70,12 +71,12 @@ function Slide({ slide, isActive }) {
           }}
           onMouseEnter={(e) => {
             setHoverText(true);
-            e.target.style.backgroundColor = "#0056b3";
+            e.target.style.backgroundColor = "#D38C02";
             e.target.style.transform = "scale(1.05)";
           }}
           onMouseLeave={(e) => {
             setHoverText(false);
-            e.target.style.backgroundColor = "#007bff";
+            e.target.style.backgroundColor = "#443E32";
             e.target.style.transform = "scale(1)";
           }}
         >
