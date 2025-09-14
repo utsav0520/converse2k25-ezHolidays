@@ -15,7 +15,7 @@ function AppBar() {
         {/* Center Title on medium+ screens */}
         <div className="hidden md:block text-primary text-center px-2 flex-1">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold tracking-wide">
-            Our Official Trip Partner
+            Our Official Title Sponsor 
           </h2>
         </div>
 
@@ -38,3 +38,4 @@ function AppBar() {
 }
 
 export default AppBar;
+
