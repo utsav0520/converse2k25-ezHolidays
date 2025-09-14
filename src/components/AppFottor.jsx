@@ -61,7 +61,7 @@ function AppFottor() {
 
           {/* Instagram */}
           <a
-            href="https://instagram.com/EZHolidays"
+            href="https://www.instagram.com/ezholidayssurat?igsh=cGZnc20ycDU0b2hl"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-200 flex items-center gap-2"
@@ -106,3 +106,4 @@ function AppFottor() {
 }
 
 export default AppFottor;
+
