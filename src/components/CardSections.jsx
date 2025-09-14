@@ -53,7 +53,7 @@ function CardSections() {
       {/* Heading */}
       <div className="text-center mb-5">
         <h2 className="fw-bold text-dark text-3xl">
-          🌴 Summer Specials <span className="text-2xl">2025</span>
+          🌴 Diwali Specials <span className="text-2xl">2025</span>
         </h2>
         <p className="text-muted">
           Explore our top travel packages this summer
@@ -152,3 +152,4 @@ function CardSections() {
 }
 
 export default CardSections;
+
